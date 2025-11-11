@@ -1,5 +1,4 @@
-const add = require('./utils.js');
+const getNodes = require('./notes.js');
 
-const sum = add(2, 3);
-
-console.log(sum);
+const msg = getNodes();
+console.log(msg);
