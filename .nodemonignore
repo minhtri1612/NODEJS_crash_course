@@ -1,0 +1,6 @@
+# Ignore data files that the app writes at runtime so nodemon doesn't restart repeatedly
+data/
+
+# Typical ignores
+node_modules/
+.DS_Store
